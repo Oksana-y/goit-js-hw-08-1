@@ -18,7 +18,9 @@ function getItemLs(){
     if(data){
      email.value = data.email || "";
      message.value = data.message || "";
+     formData = {email: "data.email", message: "data.message"}; 
     }
+    
 }
 getItemLs();
 
